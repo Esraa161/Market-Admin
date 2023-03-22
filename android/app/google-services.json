@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "921146002063",
+    "project_id": "market-admin-a9150",
+    "storage_bucket": "market-admin-a9150.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:921146002063:android:daae64a3074bdf8a953efa",
+        "android_client_info": {
+          "package_name": "com.example.market_admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "921146002063-546pfgb7lcbgu16ucoo9rj9j2h92078b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvoUZUBp8IR6xkwEebxf-JSZF63BOfK9E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "921146002063-546pfgb7lcbgu16ucoo9rj9j2h92078b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
