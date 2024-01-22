@@ -266,11 +266,18 @@ class _login_screenState extends State<login_screen> {
                                   _isConnected =await checkInternetConnection();
                                   if(_isConnected== false){
                                     Fluttertoast.showToast(msg:"No Internet ",backgroundColor: Colors.red);
-                                  }else
-                                  { loginInitialState();
-                                    loginCubit.get(context).userLogin(
-                                      email:emailController.text ,
-                                      password: passwordController.text);}
+                                  }else{
+                                    final snackBar = SnackBar(
+                                        content: Text('Submitting form'));
+                                    Navigator.of(context).pushReplacement(
+                                        MaterialPageRoute(builder: (context) =>
+                                            allOrders_screen()));
+                                  }
+                                  // else{
+                                  //   loginInitialState();
+                                  //   loginCubit.get(context).userLogin(
+                                  //     email:emailController.text ,
+                                  //     password: passwordController.text);}
                                }
                               },
                               child: botton_widget("Login"),
