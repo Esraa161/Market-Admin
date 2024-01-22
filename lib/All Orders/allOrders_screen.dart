@@ -222,6 +222,7 @@ class _allOrders_screenState extends State<allOrders_screen> {
                                color: Colors.white,
                                borderRadius: BorderRadius.circular(10.0)),
                            child: TabBar(
+
                              isScrollable: true,
                              indicator: BoxDecoration(
                                color: Color.fromRGBO(242, 245, 247, 1.0),
