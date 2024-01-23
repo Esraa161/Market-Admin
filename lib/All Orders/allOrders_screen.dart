@@ -228,6 +228,7 @@ class _allOrders_screenState extends State<allOrders_screen> {
                                color: Color.fromRGBO(242, 245, 247, 1.0),
                                borderRadius: BorderRadius.circular(10.0),
                              ),
+
                              labelColor: Colors.black87,
                              unselectedLabelColor: Color.fromRGBO(242, 245, 247, 1.0),
                              tabs:tabs
